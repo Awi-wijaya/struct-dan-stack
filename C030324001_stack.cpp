@@ -27,3 +27,7 @@ int main(int argc, char const *argv[])
 void InitializeStack(Stack *S) {Add commentMore actions
     S->Count = 0;
 }
+
+int Full(Stack *S) {Add commentMore actions
+    return (S->Count == MAXSTACK);
+}
