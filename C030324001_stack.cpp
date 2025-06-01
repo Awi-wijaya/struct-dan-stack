@@ -35,3 +35,14 @@ int Full(Stack *S) {Add commentMore actions
 int Empty(Stack *S) {Add commentMore actions
     return (S->Count == 0);
 }
+
+void Pop(Stack *S, itemType *x) {Add commentMore actions
+    if (S->Count == 0)
+    {
+        cout << "Stack masih kosong" << endl;
+    } else {
+        --(S->Count);
+        *x = S->Item[S->Count];
+    }
+    
+}
