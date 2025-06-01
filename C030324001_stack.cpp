@@ -23,3 +23,7 @@ int main(int argc, char const *argv[])
     
     return 0;
 }
+
+void InitializeStack(Stack *S) {Add commentMore actions
+    S->Count = 0;
+}
