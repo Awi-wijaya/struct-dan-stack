@@ -46,3 +46,12 @@ void Pop(Stack *S, itemType *x) {Add commentMore actions
     }
     
 }
+
+void Push(Stack *S, itemType x) {Add commentMore actions
+    if (S->Count == MAXSTACK) {
+        cout << "Stack sudah penuh" << endl;
+    } else {
+        S->Item[S->Count] = x;
+        ++(S->Count);
+    }
+}
