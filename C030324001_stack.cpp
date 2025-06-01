@@ -31,3 +31,7 @@ void InitializeStack(Stack *S) {Add commentMore actions
 int Full(Stack *S) {Add commentMore actions
     return (S->Count == MAXSTACK);
 }
+
+int Empty(Stack *S) {Add commentMore actions
+    return (S->Count == 0);
+}
