@@ -27,11 +27,11 @@ int main(int argc, char const *argv[])Add commentMore actions
 
     InitializeStack(&S);
 
-    Push(&S, 2);
-    Push(&S, 5);
-    Push(&S, 9);
-    Push(&S, 1);
     Push(&S, 3);
+    Push(&S, 7);
+    Push(&S, 4);
+    Push(&S, 2);
+    Push(&S, 6);
     Pop(&S, &x);
     display(&S);
 
